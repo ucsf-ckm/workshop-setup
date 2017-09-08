@@ -163,6 +163,7 @@ and our administrator may contact you if we need any extra information.</h4>
 
   Display the contact email address set in the configuration file.
 -->
+<!--
 <p id="contact">
   <strong>Contact</strong>:
   Please email
@@ -184,7 +185,7 @@ and our administrator may contact you if we need any extra information.</h4>
 </p>
 
 <hr/>
-
+-->
 <!--
   SCHEDULE
 
@@ -192,9 +193,13 @@ and our administrator may contact you if we need any extra information.</h4>
   to match your plans.  You may also want to change 'Day 1' and 'Day
   2' to be actual dates or days of the week.
 -->
+<!--
 <h2 id="schedule">Schedule</h2>
+-->
 
 <!-- DO NOT EDIT SURVEY LINKS -->
+
+<!--
 <p><em>Surveys</em></p>
 {% if page.carpentry == "swc" %} 
 <p>Please be sure to complete these surveys before and after the workshop.</p>
@@ -216,6 +221,7 @@ and our administrator may contact you if we need any extra information.</h4>
 {% elsif page.carpentry == "lc" %}
   {% include lc/schedule.html %}
 {% endif %}
+-->
 
 <!--
   Collaborative Notes
@@ -227,6 +233,8 @@ and our administrator may contact you if we need any extra information.</h4>
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
   e.g., '2015-06-10-esu'.
 -->
+
+<!--
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
   We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
@@ -234,7 +242,7 @@ and our administrator may contact you if we need any extra information.</h4>
 {% endif %}
 
 <hr/>
-
+-->
 <!--
   SYLLABUS
 
